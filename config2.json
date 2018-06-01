@@ -1,0 +1,5 @@
+{
+  "bridge_localport" : ":33080",
+  "server_route" : ":28080@:80",
+  "server_parent" : "172.16.19.102:33080"
+}
