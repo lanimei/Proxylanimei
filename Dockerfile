@@ -9,3 +9,4 @@ COPY --from=builder /go/src/goproxy/proxy /
 COPY ./proxy.crt /
 COPY ./proxy.key /
 CMD /proxy server -r ":28080@:22" -P "172.16.19.102:33080" -C proxy.crt -K proxy.key
+
